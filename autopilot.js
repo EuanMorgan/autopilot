@@ -79,7 +79,7 @@ async function convertToWorkOrPersonal(url) {
   // This adds that automatically if it can, or prompts if not
 
   let repoType;
-  if (url.includes('cacode-euan') || url.includes('CarbonCodeSolutions')) {
+  if (url.includes('ck-euan') || url.includes('MyPetPro') || url.includes('CountingKing')) {
     repoType = 'work';
   } else if (url.includes('EuanMorgan')) {
     repoType = 'personal';
